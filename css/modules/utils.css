@@ -1,44 +1,29 @@
-
 .d-flex {
     display: flex;
 }
 
-.d-flex-center {
-    display: flex;
+.ai-center{
     align-items: center;
 }
 
-.d-flex-column {
-    display: flex;
+.fd-column{
     flex-direction: column;
 }
 
-.d-flex-start {
-    display: flex;
+.ta-start{
     text-align: start;
 }
 
-.d-flex-sb {
-    display: flex;
+.ta-center{
+    text-align: center;
+}
+
+.jc-between{
     justify-content: space-between;
 }
 
-.d-flex-sa {
-    display: flex;
-    justify-content: space-around;
-}
-
-.d-flex-se {
-    display: flex;
+.jc-evenly{
     justify-content: space-evenly;
-}
-
-.t-a-s{
-    text-align: start;
-}
-
-.t-a-c{
-    text-align: center;
 }
 
 .g-1 {
