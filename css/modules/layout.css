@@ -1,6 +1,50 @@
 .container {
     margin: 0 auto;
+    border: 1px solid red;
 }
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.encabezado__descripcion{
+    line-height: 1.7;
+}
+
+.encabezado__imagen{
+    width: 80vw;
+}
+
+.results1__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (width >=768px){
+
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20vh;
+    }
+
+    .encabezado__descripcion{
+        width: 25vw;
+    }
+
+    .encabezado__imagen{
+        width: 28vw;
+    }
+
+    .results1__texto{
+        display: flex;
+        flex-direction: row;
+    }
+}
+}
+
 
 .container1 {
     background-color: var(--white-color);
