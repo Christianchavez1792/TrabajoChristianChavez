@@ -1,0 +1,189 @@
+.header {
+    text-align: center;
+    background-color: var(--white-color);
+    width: 50dvw;
+    height: 80px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+    gap: 50px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-menu-item a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.seccion-black {
+    background-color: var(--dark-color);
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    height: 600px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-black-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    color: var(--white-color);
+}
+
+.boton-seccion-black {
+    background-color: var(--transparent-color);
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+
+.footer {
+    background-color: var(--dark-color);
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    background-color: #0f0f0f;
+    width: 95%;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.footer-part1 {
+    margin-top: 80px;
+    gap: 200px;
+}
+
+.logo-footer {
+    width: 700px;
+    padding-left: 130px;
+    margin-top: 250px;
+}
+
+.footer-seccion-menu {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 80px;
+
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-menu-title {
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+.footer-menu-item {
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-item1 a {
+    text-align: start;
+    gap: 8px;
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.linea-footer {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(58, 58, 58);
+    margin: 0 auto;
+}
+
+.footer-part2{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer-part2-linksizquierda{
+    display: flex;
+    justify-content: start;
+}
+
+.footer-menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu2-item a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-part2-centro{
+    display: flex;
+    gap: 40px;
+    color: var(--white-color);
+}
+
+.redes-sociales{
+    display: flex;
+    gap: 20px;
+}
+
+.iconorrss{
+    color: var(--white-color);
+    background-color: #2B2B2B;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

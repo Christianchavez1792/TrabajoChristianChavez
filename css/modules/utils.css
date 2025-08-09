@@ -1,0 +1,131 @@
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-start {
+    display: flex;
+    text-align: start;
+}
+
+.d-flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.d-flex-se {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t-a-s{
+    text-align: start;
+}
+
+.t-a-c{
+    text-align: center;
+}
+
+.g-1 {
+    gap: 1dvw;
+}
+
+.g-7 {
+    gap: 7dvh;
+}
+
+.f-1 {
+    font-size: 5em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.f-2 {
+    font-size: 3.75em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.f-3 {
+    font-size: 1.5em;
+}
+
+.f-4{
+    font-size: 1.25em;
+}
+
+.m-t-l {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.m-t-20{
+    margin-top: 20vh;
+}
+
+.m-a{
+    margin: auto;
+}
+
+.f-w-700 {
+    font-weight: 700;
+}
+
+.p-t-1{
+    padding-top: 1.5vh;
+}
+
+.p-t-3{
+    padding-top: 3vh;
+}
+
+.p-t-10{
+    padding-top: 10vh;
+}
+
+.p-t-20{
+    padding-top: 20vh;
+}
+
+.p-l-1{
+    padding-left: 1dvw;
+}
+
+.w-25{
+    width: 25dvw;
+}
+
+.w-30{
+    width: 30dvw;
+}
+
+.w-50{
+    width: 50dvw;
+}
+
+.w-60{
+    width: 60dvw;
+}
+
+.w-80{
+    width: 80dvw;
+}
+
+.h-25{
+    height: 25vh;
+}

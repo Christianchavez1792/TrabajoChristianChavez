@@ -1,0 +1,125 @@
+.logo-cliente {
+    width: 100px;
+    height: auto;
+}
+
+.boton{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: 5px;
+}
+
+.boton2{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: 5px;
+}
+
+.boton-services1 {
+    margin-left: 295px;
+    background-color: var(--transparent-color);
+    border: 0;
+}
+
+.boton-services2 {
+    margin-left: 657px;
+    background-color: var(--transparent-color);
+    border: 0;
+}
+
+.boton-meet-team {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 290px;
+    margin-left: 65px;
+}
+
+.fotos-members {
+    position: relative;
+    width: 40%;
+    height: 320px;
+    margin: auto;
+    padding-left: 50px;
+}
+
+.foto {
+    height: 300px;
+    border: 3px solid var(--white-color);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.fotocliente {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.team-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    height: 400px;
+}
+
+.miembro2 {
+    left: 100px;
+    z-index: 3;
+}
+
+.miembro1 {
+    transform: rotate(-5deg);
+    left: 40px;
+    z-index: 2;
+}
+
+.miembro3 {
+    transform: rotate(5deg);
+    left: 170px;
+    z-index: 2;
+}
+
+.cuadro-titulo {
+    color: var(--white-color);
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.cliente-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.cliente-info p {
+    margin: 5px;
+}

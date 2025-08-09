@@ -1,0 +1,13 @@
+body {
+    background-color: #e9e8e8;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    padding-top: 10px;
+    font-family: 'Arimo', sans-serif;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.fraunces {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+}
