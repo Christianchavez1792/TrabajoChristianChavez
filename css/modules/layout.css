@@ -3,35 +3,35 @@
     border: 1px solid red;
 }
 
-.encabezado{
+.encabezado {
     display: flex;
     flex-direction: column;
     padding-top: 10vh;
 }
 
-.encabezado__descripcion{
+.encabezado__descripcion {
     line-height: 1.7;
 }
 
-.encabezado__imagen{
+.encabezado__imagen {
     width: 80vw;
 }
 
-.results1__texto{
+.results1__texto {
     display: flex;
     flex-direction: column;
 }
 
-.results1__titulo{
+.results1__titulo {
     text-align: start;
 }
 
-.results1__descripcion{
+.results1__descripcion {
     text-align: start;
     line-height: 1.7;
 }
 
-.results1__cuadros{
+.results1__cuadros {
     padding-top: 15vh;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
     height: 35vh;
 }
 
-.container1__logo{
+.container1__logo {
     text-align: start;
     margin-top: 2vh;
     margin-left: 4vw;
@@ -76,39 +76,106 @@
     padding-left: 2vw;
 }
 
+.services {
+    padding-top: 10vh;
+}
 
-@media (width >=768px){
+.services__contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
 
-    .encabezado{
+.services__imagen img {
+    width: 80%;
+}
+
+.services__titulo {
+    text-align: start;
+}
+
+.services_descripcion {
+    text-align: start;
+    line-height: 1.7;
+}
+
+.services__cuadros {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.services__cuadros1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 19vh;
+}
+
+.container2_titulo {
+    font-size: 1.25em;
+    margin: 0;
+    text-align: start;
+    padding-left: 4vw;
+    padding-top: 2vw;
+}
+
+.container3 {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 19vh;
+}
+
+.container3_titulo {
+    font-size: 1.25em;
+    margin: 0;
+    text-align: start;
+    padding-left: 4vw;
+    padding-top: 2vw;
+}
+
+@media (width >=768px) {
+
+    .encabezado {
         display: flex;
         flex-direction: row;
         padding-top: 20vh;
     }
 
-    .encabezado__descripcion{
+    .encabezado__descripcion {
         width: 25vw;
     }
 
-    .encabezado__imagen{
+    .encabezado__imagen {
         width: 28vw;
     }
 
-    .results1__texto{
+    .results1__texto {
         display: flex;
         flex-direction: row;
     }
 
-    .results1__titulo{
+    .results1__titulo {
         width: 35vw;
     }
 
-    .results1__descripcion{
+    .results1__descripcion {
         padding-top: 10vh;
         padding-left: 5vw;
         width: 50vh;
     }
 
-    .results1__cuadros{
+    .results1__cuadros {
         display: flex;
         flex-direction: row;
     }
@@ -119,50 +186,86 @@
     }
 
     .recuadro {
-    width: 11.5vw;
-    height: 10vh;
+        width: 11.5vw;
+        height: 10vh;
     }
 
-    .container1__logo{
-    margin-left: 1vw;
+    .container1__logo {
+        margin-left: 1vw;
     }
 
     .recuadro-titulo {
-    font-size: 1.8em;
-    padding-top: 1vh;
-    padding-left: 1vw;
+        font-size: 1.8em;
+        padding-top: 1vh;
+        padding-left: 1vw;
     }
 
     .recuadro-texto {
-    padding-left: 1vw;
+        padding-left: 1vw;
     }
 
+    .services {
+        padding-top: 20vh;
+    }
+
+    .services__contenido {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .services__imagen {
+        align-items: start;
+    }
+
+    .services__imagen img {
+        width: 20vw;
+    }
+
+    .services__titulo {
+        width: 40vw;
+    }
+
+    .services_descripcion {
+        width: 25vw;
+    }
+
+    .services__cuadros {
+        width: 40vw;
+    }
+
+    .services__cuadros1 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .container2 {
+        height: 25vh;
+        width: 19vw;
+        display: flex;
+        flex-direction: column;
+        gap: 15vh;
+    }
+
+    .container2_titulo {
+        padding-left: 2vw;
+        padding-top: 2vh
+    }
+
+    .container3 {
+        height: 25vh;
+        width: 39vw;
+        display: flex;
+        flex-direction: column;
+        gap: 15vh;
+    }
+
+    .container3_titulo {
+        padding-left: 2vw;
+        padding-top: 2vh;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-.container2 {
-    background-color: var(--white-color);
-    width: 350px;
-    height: 200px;
-    border-radius: 10px;
-    gap: 110px;
-}
-
-.container3 {
-    background-color: var(--white-color);
-    width: 712px;
-    height: 200px;
-    border-radius: 10px;
-    gap: 110px;
-}
 
 .container4 {
     background-color: #7A7CF3;

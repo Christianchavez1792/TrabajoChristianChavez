@@ -3,7 +3,7 @@
     height: auto;
 }
 
-.boton{
+.boton {
     height: 50px;
     width: 160px;
     font-size: 14px;
@@ -16,16 +16,38 @@
     border-radius: var(--border-radius);
 }
 
-@media (width >=768px){
+.container2__boton {
+    margin-left: 65vw;
+    background-color: var(--transparent-color);
+    border: 0;
+}
 
-    .boton{
+.container3__boton {
+    margin-left: 65vw;
+    background-color: var(--transparent-color);
+    border: 0;
+}
+
+@media (width >=768px) {
+
+    .boton {
         font-size: 1.3em;
         width: 220px;
         height: 60px;
     }
+
+    .container2__boton {
+        margin-left: 15vw;
+        background-color: var(--transparent-color);
+    }
+
+    .container3__boton {
+        margin-left: 35vw;
+        background-color: var(--transparent-color);
+    }
 }
 
-.boton2{
+.boton2 {
     height: 50px;
     width: 230px;
     font-size: 18px;
@@ -38,17 +60,9 @@
     border-radius: 5px;
 }
 
-.boton-services1 {
-    margin-left: 295px;
-    background-color: var(--transparent-color);
-    border: 0;
-}
 
-.boton-services2 {
-    margin-left: 657px;
-    background-color: var(--transparent-color);
-    border: 0;
-}
+
+
 
 .boton-meet-team {
     height: 50px;
