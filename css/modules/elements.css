@@ -28,6 +28,82 @@
     border: 0;
 }
 
+.demand {
+    display: none;
+}
+
+.team_text {
+    display: none;
+}
+
+.container4 {
+    background-color: #7A7CF3;
+    border-radius: var(--border-radius);
+    width: 17vw;
+    height: 10vh;
+}
+
+.fotos-members {
+    height: 30vh;
+    display: flex;
+    margin: 0;
+}
+
+.foto {
+    height: 30vh;
+    border: 3px solid var(--white-color);
+    border-radius: var(--border-radius);
+    position: absolute;
+    margin-left: 4vw;
+}
+
+.imagenboton {
+    width: 60vw;
+}
+
+.miembro2 {
+    left: 100px;
+    z-index: 3;
+}
+
+.miembro1 {
+    transform: rotate(-5deg);
+    left: 40px;
+    z-index: 2;
+}
+
+.miembro3 {
+    transform: rotate(5deg);
+    left: 170px;
+    z-index: 2;
+}
+
+.team__boton {
+    height: 50px;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: var(--border-radius);
+    position: absolute;
+    z-index: 4;
+    margin-top: 25vh;
+}
+
+.team__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    height: 400px;
+}
+
 @media (width >=768px) {
 
     .boton {
@@ -44,6 +120,63 @@
     .container3__boton {
         margin-left: 35vw;
         background-color: var(--transparent-color);
+    }
+
+    .container4 {
+    background-color: #7A7CF3;
+    border-radius: var(--border-radius);
+    width: 10vw;
+    height: 19vh;
+}
+
+
+    .demand {
+        display: block;
+    }
+
+    .team_text {
+        display: block;
+    }
+
+    .fotos-members {
+        position: relative;
+        width: 40%;
+        height: 40vh;
+    }
+
+    .foto {
+        margin-left: 0;
+    }
+
+    .team__boton {
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--white-color);
+        border: 0;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 4;
+        margin-top: 28vh;
+        margin-left: 4.9vw;
+    }
+
+    .miembro2 {
+        z-index: 3;
+    }
+
+    .miembro1 {
+        transform: rotate(-5deg);
+        z-index: 2;
+    }
+
+    .miembro3 {
+        transform: rotate(5deg);
+        z-index: 2;
     }
 }
 
@@ -64,77 +197,12 @@
 
 
 
-.boton-meet-team {
-    height: 50px;
-    width: 200px;
-    font-size: 18px;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--white-color);
-    border: 0;
-    border-radius: 5px;
-    position: absolute;
-    z-index: 4;
-    margin-top: 290px;
-    margin-left: 65px;
-}
 
-.fotos-members {
-    position: relative;
-    width: 40%;
-    height: 320px;
-    margin: auto;
-    padding-left: 50px;
-}
-
-.foto {
-    height: 300px;
-    border: 3px solid var(--white-color);
-    border-radius: 10px;
-    position: absolute;
-}
 
 .fotocliente {
     width: 60px;
     height: 60px;
     border-radius: 100%;
-}
-
-.team-info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    width: 60%;
-    height: 400px;
-}
-
-.miembro2 {
-    left: 100px;
-    z-index: 3;
-}
-
-.miembro1 {
-    transform: rotate(-5deg);
-    left: 40px;
-    z-index: 2;
-}
-
-.miembro3 {
-    transform: rotate(5deg);
-    left: 170px;
-    z-index: 2;
-}
-
-.cuadro-titulo {
-    color: var(--white-color);
-    font-weight: 400;
-    text-align: center;
-    margin: 0;
-    padding-top: 40px;
 }
 
 .cliente-info {
